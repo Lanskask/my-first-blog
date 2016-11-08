@@ -25,7 +25,9 @@ SECRET_KEY = '%0dedr)z$oyzc$o$u24g1bl@e@ctymmngk2hz28k2ocnx#vmzl'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'woodtractor.pythonanywhere.com',
+]
 
 
 # Application definition
